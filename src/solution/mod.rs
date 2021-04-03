@@ -1,1 +1,2 @@
 mod s1006_clumsy_factorial;
+mod s1143_longest_common_subsequence;
