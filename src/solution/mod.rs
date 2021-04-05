@@ -1,2 +1,4 @@
 mod s1006_clumsy_factorial;
 mod s1143_longest_common_subsequence;
+mod s0781_rabbits_in_forest;
+mod s0088_merge_sorted_array;
