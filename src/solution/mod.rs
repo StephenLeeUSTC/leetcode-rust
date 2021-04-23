@@ -4,3 +4,5 @@ mod s0781_rabbits_in_forest;
 mod s0088_merge_sorted_array;
 mod s0220_contains_duplicate_iii;
 mod s0091_decode_ways;
+mod s0363_max_sum_of_rectangle_no_larger_than_k;
+mod s0368_largest_divisible_subset;
