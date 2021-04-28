@@ -7,3 +7,7 @@ mod s0091_decode_ways;
 mod s0363_max_sum_of_rectangle_no_larger_than_k;
 mod s0368_largest_divisible_subset;
 mod s0377_combination_sum_iv;
+mod s0094_binary_tree_inorder_traversal;
+mod s0897_increasing_order_search_tree;
+mod s0938_range_sum_of_bst;
+mod s1011_capacity_to_ship_packages_within_d_days;
