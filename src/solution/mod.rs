@@ -11,3 +11,6 @@ mod s0094_binary_tree_inorder_traversal;
 mod s0897_increasing_order_search_tree;
 mod s0938_range_sum_of_bst;
 mod s1011_capacity_to_ship_packages_within_d_days;
+mod s0137_single_number_ii;
+mod s0403_frog_jump;
+mod s0633_sum_of_square_numbers;
