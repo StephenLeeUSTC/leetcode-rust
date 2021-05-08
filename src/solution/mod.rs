@@ -14,3 +14,6 @@ mod s1011_capacity_to_ship_packages_within_d_days;
 mod s0137_single_number_ii;
 mod s0403_frog_jump;
 mod s0633_sum_of_square_numbers;
+mod s0112_path_sum;
+mod s0129_sum_root_to_leaf_numbers;
+mod s0814_binary_tree_pruning;
