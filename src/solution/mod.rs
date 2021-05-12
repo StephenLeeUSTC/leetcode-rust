@@ -17,3 +17,4 @@ mod s0633_sum_of_square_numbers;
 mod s0112_path_sum;
 mod s0129_sum_root_to_leaf_numbers;
 mod s0814_binary_tree_pruning;
+mod s0236_lowest_common_ancestor_of_a_binary_tree;
