@@ -20,3 +20,4 @@ mod s0814_binary_tree_pruning;
 mod s0236_lowest_common_ancestor_of_a_binary_tree;
 mod s1738_find_kth_largest_xor_coordinate_value;
 mod s0968_binary_tree_cameras;
+mod s0692_top_k_frequent_words;
