@@ -27,3 +27,5 @@ mod s0297_serialize_and_deserialize_binary_tree;
 mod s0461_hamming_distance;
 mod s0508_most_frequent_subtree_sum;
 mod s1035_uncrossed_lines;
+mod s0169_majority_element;
+mod s0153_find_minimum_in_rotated_sorted_array;
