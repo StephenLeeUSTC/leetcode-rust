@@ -29,3 +29,4 @@ mod s0508_most_frequent_subtree_sum;
 mod s1035_uncrossed_lines;
 mod s0169_majority_element;
 mod s0153_find_minimum_in_rotated_sorted_array;
+mod s0279_perfect_squares;
