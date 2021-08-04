@@ -31,3 +31,5 @@ mod s0169_majority_element;
 mod s0153_find_minimum_in_rotated_sorted_array;
 mod s0279_perfect_squares;
 mod s0084_largest_rectangle_in_histogram;
+mod s0085_maximal_rectangle;
+mod s0221_maximal_square;
