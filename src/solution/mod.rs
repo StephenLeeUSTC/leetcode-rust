@@ -33,3 +33,5 @@ mod s0279_perfect_squares;
 mod s0084_largest_rectangle_in_histogram;
 mod s0085_maximal_rectangle;
 mod s0221_maximal_square;
+mod s0719_find_k_th_smallest_pair_distance;
+mod s0668_kth_smallest_number_in_multiplication_table;
