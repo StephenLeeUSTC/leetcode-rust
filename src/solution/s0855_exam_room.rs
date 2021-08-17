@@ -42,10 +42,10 @@ pub struct Solution {}
 
 // submission codes start here
 
-use std::collections::HashSet;
+use std::collections::BTreeSet;
 
 struct ExamRoom {
-    seats: HashSet<i32>,
+    seats: BTreeSet<i32>,
     capacity: i32,
 }
 
@@ -58,12 +58,13 @@ impl ExamRoom {
 
     fn new(n: i32) -> Self {
         ExamRoom {
-            seats : HashSet::new(),
+            seats : BTreeSet::new(),
             capacity: n,
         }
     }
     
     fn seat(&mut self) -> i32 {
+        // println!("seats is {:?}", self.seats);
         if self.seats.len() == 0 {
             self.seats.insert(0);
             return 0;
@@ -72,19 +73,22 @@ impl ExamRoom {
         let (mut left, mut right) = (0, 0);
         let mut max_distance = 0;
         let mut pre = 0;
+        let mut pick = 0;
         for (i, item) in self.seats.iter().enumerate() {
-            println!("i is {}, item is {}", i, *item);
-            if pre == 0 {
+            // println!("i is {}, item is {}", i, *item);
+            if i == 0 && *item != 0 {
                 if *item - pre > max_distance {
                     left = pre;
                     right = *item;
                     max_distance = right - left;
+                    pick = 0;
                 }
             } else {
                 if (*item - pre) / 2 > max_distance {
                     left = pre;
                     right = *item;
                     max_distance = (right - left) / 2;
+                    pick = left + max_distance;
                 }
             }
  
@@ -95,22 +99,12 @@ impl ExamRoom {
             left = pre;
             right = self.capacity - 1;
             max_distance = right - left;
+            pick = right;
         }
-        println!("left is {}, right is {}", left, right);
+        // println!("left is {}, right is {}", left, right);
 
-        if left == 0 {
-            self.seats.insert(left);
-            return left;
-        } else if right == self.capacity - 1 {
-            self.seats.insert(right);
-            return right;
-        } else {
-            let res = left + (right - left) / 2;
-            self.seats.insert(res);
-            return res;
-        }
-
-        0
+        self.seats.insert(pick);
+        pick
     }
     
     fn leave(&mut self, p: i32) {
