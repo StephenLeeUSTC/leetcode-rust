@@ -42,3 +42,4 @@ mod s0455_assign_cookies;
 mod s0986_interval_list_intersections;
 mod s0855_exam_room;
 mod s0881_boats_to_save_people;
+mod s0016_3sum_closest;
