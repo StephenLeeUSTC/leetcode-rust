@@ -43,3 +43,5 @@ mod s0986_interval_list_intersections;
 mod s0855_exam_room;
 mod s0881_boats_to_save_people;
 mod s0016_3sum_closest;
+mod s0977_squares_of_a_sorted_array;
+mod s1646_get_maximum_in_generated_array;
