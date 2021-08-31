@@ -45,3 +45,4 @@ mod s0881_boats_to_save_people;
 mod s0016_3sum_closest;
 mod s0977_squares_of_a_sorted_array;
 mod s1646_get_maximum_in_generated_array;
+mod s0239_sliding_window_maximum;
